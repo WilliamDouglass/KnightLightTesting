@@ -25,7 +25,8 @@ export async function initializeScene(scene, renderer) {
 
     // Additional scene setup or initialization
     // field(scene);
-    loadMesh("../models/LowPolyEnv.glb", scene);
+    // loadMesh("../models/LowPolyEnv.glb", scene);
+    loadMesh("../models/Grass.glb", scene);
   } catch (error) {
     console.error("Error loading environment:", error);
   }
